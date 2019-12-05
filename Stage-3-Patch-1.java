@@ -33,9 +33,9 @@ public class Main {
 
         for(int i=0;i<numOfCards;i++){
 
-                System.out.println("Print the definition of " + flashCard[i][0]);
-                String answer = scanner.nextLine();
-                checkDefinition(flashCard[i][1],answer);
+            System.out.println("Print the definition of " + "\"" + flashCard[i][0]+ "\"");
+            String answer = scanner.nextLine();
+            checkDefinition(flashCard[i][1],answer);
 
         }
 
